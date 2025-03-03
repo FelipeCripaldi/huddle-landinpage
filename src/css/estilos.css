@@ -1,0 +1,80 @@
+/* ajustes gerais */
+* {
+  padding: 0 10px;
+  font-family: Open Sans;
+  text-decoration: none;
+  max-height: 100vh;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* fin dos ajustes */
+
+body {
+  color: white;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  background-size: cover;
+  margin-top: 5px;
+}
+
+.home {
+  display: flex;
+}
+
+.home-banner {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mockup img {
+  scale: 80%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 15px;
+}
+
+.bnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px hsl(257, 41%, 34%);
+}
+
+.bnt:hover {
+  font-style: bold;
+  background-color: hsl(300, 69%, 71%);
+}
+
+.listaredesocial {
+  display: flex;
+  justify-content: end;
+
+}
+
+.redesocial {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: solid 2px white;
+  border-radius: 50px;
+
+  &:hover {
+    font-style: bold;
+    color: hsl(300, 69%, 71%);
+    border: solid 2px hsl(300, 69%, 71%);
+  }
+}
